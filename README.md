@@ -28,8 +28,7 @@ In IJCAI 2023.
 
 
 ### Workflow
-Comprehensive comparisons with advanced multi-modality image fusion methods on visual quality, object detection, and  segmentation. The left figure plots the rankings on diverse metrics with four datasets. 
-The right figures depict the  visual comparisons.
+
 <img src='imgs/first.png' width=420> 
 
 ### Results 
