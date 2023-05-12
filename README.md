@@ -8,7 +8,7 @@ Guanyao Wu,
 Long Ma,
 Xin Fan,
 Risheng Liu. 
-In IJCAI 2023. (\* Equall contribution)
+In IJCAI 2023. 
 \[[Paper]()\]\[[Project]()\]
 
 
@@ -29,7 +29,7 @@ In IJCAI 2023. (\* Equall contribution)
 
 ### Workflow
 Comprehensive comparisons with advanced multi-modality image fusion methods on visual quality, object detection, and  segmentation. The left figure plots the rankings on diverse metrics with four datasets. 
-The right figures depict the  visual comparisons
+The right figures depict the  visual comparisons.
 <img src='imgs/first.png' width=420> 
 
 ### Results 
