@@ -9,31 +9,34 @@ Long Ma,
 Xin Fan,
 Risheng Liu. 
 In IJCAI 2023. 
-\[[Paper]()\]\[[Project]()\]
+[Paper](https://arxiv.org/pdf/2305.06720.pdf)
 
 
 
 ## Requirements
 + Python 3.7
 + PyTorch 1.10.1
-
++ Checkpoint of detection 
+[Checkpoint](https://drive.google.com/file/d/1jZgtcS9dxm4fCDutFk_zPqaeZuDlJa5C/view?usp=share_link)
 
 ## Usage
 ### Data preparation
-
+Details will be provided as soon as possible.
 ### Testing
+Run "**python test.py**" to test the model.
 
 
 ### Training
 
-
 ### Workflow
 
-<img src='imgs/first.png' width=420> 
+<img src='imgs/first.png' width=840> 
 
-### Results 
-<img src='imgs/detec.png' width=420> 
+### Results of detection
+<img src='imgs/detec.png' width=840> 
 
+### Results of segmentation
+<img src='imgs/Seg.png' width=840> 
 
 ## Citation
 If you use this code for your research, please cite our paper.
