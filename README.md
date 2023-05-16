@@ -43,7 +43,7 @@ If you use this code for your research, please cite our paper.
 
 ```
 @article{liu2023bilevel,
-  title=Bi-level Dynamic Learning  for Jointly Multi-modality Image Fusion and Beyond},
+  title={Bi-level Dynamic Learning  for Jointly Multi-modality Image Fusion and Beyond},
   author={Zhu Liu and Jinyuan Liu and Guanyao Wu and Long Ma and Xin Fan and Risheng Liu},
   journal={IJCAI},
   year={2023},
