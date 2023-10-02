@@ -16,9 +16,8 @@ import argparse
 
 from model.fcos_fusion import Network_IJCAI
 from architect_average2 import Architect as Architect1
-from architect_object_detection import Architect as Architect2
 
-from model.loss import Total_fusion_loss, Total_fusion_loss2, Fusionloss2, Fusionloss4, Fusionloss_grad2
+from model.loss import Fusionloss_grad2
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 

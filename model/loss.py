@@ -326,4 +326,19 @@ class LOSS(nn.Module):
             total_loss = cls_loss + reg_loss + cnt_loss * 0.0
             return cls_loss, cnt_loss, reg_loss, total_loss
 
+# from lap_loss import LapLoss2, LapLoss
+from pytorch_ssim import ssim
 
+class Fusionloss_grad2(nn.Module):
+    def __init__(self):
+        super(Fusionloss_grad2, self).__init__()
+
+    def forward(self,image_ir,image_vis,generate_img,mask):
+        # image_vis = RGB2YCrCb(image_vis)
+        image_y=image_vis[:,:1,:,:]
+        image_ir=image_ir[:,:1,:,:]
+        mask = mask[:,:1,:,:]
+        loss_in=F.l1_loss(mask[:,:1,:,:],generate_img)
+        # loss_lap = self.lap(generate_img,image_y,image_ir)
+        SSIM_loss = (1-ssim(generate_img,mask))
+        return loss_in  +1.1*SSIM_loss
