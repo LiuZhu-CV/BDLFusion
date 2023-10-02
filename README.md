@@ -20,13 +20,16 @@ In IJCAI 2023.
 [Checkpoint](https://drive.google.com/file/d/1jZgtcS9dxm4fCDutFk_zPqaeZuDlJa5C/view?usp=share_link)
 
 ## Usage
-### Data preparation
-Details will be provided as soon as possible.
+
 ### Testing
 Run "**python test.py**" to test the model.
 
 
 ### Training
+
+Run "**python train.py**" to train the model.
+
+The warmstart checkpoint and saliency weight maps are provided at url (https://drive.google.com/drive/folders/1WxxuXFDX4-18DfAJjDWoemREBDRcEaDH?usp=drive_link)
 
 ### Workflow
 
