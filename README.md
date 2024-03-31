@@ -13,7 +13,7 @@ In IJCAI 2023.
 
 ## Fusion Reuslts and Chinese Version
 
-The source images and fused results on TNO, RoadScene and M3FD (600 images) are
+The source images and fused results on TNO, RoadScene, MFNet and M3FD (600 images) are
 provided in [link](https://drive.google.com/drive/folders/1UI5KTL5FFDtbmSMEmB-4CCe3xrdMc0_3)
 
 中文版介绍提供在此链接 [link](https://arxiv.org/pdf/2308.03979.pdf)
