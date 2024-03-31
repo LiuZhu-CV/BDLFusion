@@ -11,6 +11,15 @@ Risheng Liu.
 In IJCAI 2023. 
 [Paper](https://arxiv.org/pdf/2305.06720.pdf)
 
+## Fusion Reuslts and Chinese Version
+
+The source images and fused results on TNO, RoadScene and M3FD (600 images) are
+provided in [link](https://drive.google.com/drive/folders/1UI5KTL5FFDtbmSMEmB-4CCe3xrdMc0_3)
+
+中文版介绍提供在此链接 [link](https://arxiv.org/pdf/2308.03979.pdf)
+
+Welcome all comparision and disscussion!
+If you have any questions, please sending an email to "liuzhu_ssdut@foxmail.com"
 
 
 ## Requirements
